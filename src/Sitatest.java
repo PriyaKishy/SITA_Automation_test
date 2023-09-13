@@ -21,7 +21,6 @@ import org.openqa.selenium.support.ui.Select;
 public class Sitatest {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\think\\Downloads\\Installers\\geckodriver\\geckodriver.exe");
 		WebDriver driver=new FirefoxDriver();
 		driver.get("https://sitatesting.github.io/AutomationTest/index.html");
 		driver.findElement(By.xpath("(//a[@href='about.html'])[3]")).click();
